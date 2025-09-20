@@ -23,6 +23,7 @@
             autoreconfHook
             libsForQt5.qt5.wrapQtAppsHook
             libsForQt5.qt5.qtbase
+            curl
           ];
           propagatedBuildInputs = with pkgs; [
             (python3.withPackages (pythonPackages: with pythonPackages; [
