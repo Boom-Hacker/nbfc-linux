@@ -33,7 +33,6 @@
           dontWrapQtApps = true;
 
           preFixup = ''
-            wrapQtApp "$out/bin/nbfc-qt"
           '';
 
           configureFlags = [
